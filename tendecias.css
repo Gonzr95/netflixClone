@@ -1,0 +1,21 @@
+.tendencias{
+    display: flex;
+    margin-bottom: 120px;
+    align-items: center;
+}
+.tendencias-grid{
+    display: grid;
+    grid-template-columns: auto, repeat(5, 200px);
+    column-gap: 50px;
+}
+
+.tendencias-grid > div {
+
+    aspect-ratio: 9 / 12;
+    overflow: hidden;      /* para que la imagen quepa dentro de la celda */
+  }
+.tendencias-grid img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
