@@ -1,5 +1,15 @@
+-- ignoro un archivo especifico 
 Imagenes/Grabación 2025-08-21 211659
 
--- comodines
+-- comodines (ignoro un tipo de archivo en especifico
 *.MP4
 
+-- ignoro el contenido de una carpeta respetando la estructura interna
+-- primero ignoro la carpeta
+/Imagenes/*
+
+-- no ignorar la subcarpetas
+!/Imagenes/**/
+
+-- Mantener un archivo marcador (dummy) para poder trackear las subcarpetas
+!/Imagenes/**/.gitkeep
