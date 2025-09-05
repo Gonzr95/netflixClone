@@ -1,11 +1,14 @@
 *{
     font-family:  Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif
 }
+
 .welcome-section {
+
     position: absolute;       
     top: 50%;                 
     left: 50%;                /* Centrado horizontal */
     transform: translate(-50%, -50%); /* Centrado exacto */
+    
     color: white;             /* Para que el texto se vea sobre la imagen */
     text-align: center;       /* Centrar texto */
     z-index: 10;              
